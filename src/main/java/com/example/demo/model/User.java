@@ -1,7 +1,7 @@
 package com.example.demo.model;
 
 import lombok.Data;
-import org.springframework.data.annotation.Id;
+import javax.persistence.Id;
 
 import javax.persistence.*;
 import javax.validation.constraints.Email;
